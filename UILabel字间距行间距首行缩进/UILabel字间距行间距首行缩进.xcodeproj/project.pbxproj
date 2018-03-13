@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D832D07F2057824D004FE839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832D07E2057824D004FE839 /* AppDelegate.swift */; };
+		D832D0812057824D004FE839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832D0802057824D004FE839 /* ViewController.swift */; };
+		D832D0842057824D004FE839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D832D0822057824D004FE839 /* Main.storyboard */; };
+		D832D0862057824D004FE839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832D0852057824D004FE839 /* Assets.xcassets */; };
+		D832D0892057824D004FE839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D832D0872057824D004FE839 /* LaunchScreen.storyboard */; };
+		D832D0942057824D004FE839 /* UILabel__________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832D0932057824D004FE839 /* UILabel__________Tests.swift */; };
+		D832D09F2057824E004FE839 /* UILabel__________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832D09E2057824E004FE839 /* UILabel__________UITests.swift */; };
+		D832D0AE2057826F004FE839 /* UILabel+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832D0AD2057826F004FE839 /* UILabel+Util.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D832D0902057824D004FE839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D832D0732057824D004FE839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D832D07A2057824D004FE839;
+			remoteInfo = "UILabel字间距行间距首行缩进";
+		};
+		D832D09B2057824E004FE839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D832D0732057824D004FE839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D832D07A2057824D004FE839;
+			remoteInfo = "UILabel字间距行间距首行缩进";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D832D07B2057824D004FE839 /* UILabel字间距行间距首行缩进.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UILabel字间距行间距首行缩进.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D832D07E2057824D004FE839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D832D0802057824D004FE839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D832D0832057824D004FE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D832D0852057824D004FE839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D832D0882057824D004FE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D832D08A2057824D004FE839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D832D08F2057824D004FE839 /* UILabel字间距行间距首行缩进Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel字间距行间距首行缩进Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D832D0932057824D004FE839 /* UILabel__________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel__________Tests.swift"; sourceTree = "<group>"; };
+		D832D0952057824E004FE839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D832D09A2057824E004FE839 /* UILabel字间距行间距首行缩进UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel字间距行间距首行缩进UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D832D09E2057824E004FE839 /* UILabel__________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel__________UITests.swift"; sourceTree = "<group>"; };
+		D832D0A02057824E004FE839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D832D0AD2057826F004FE839 /* UILabel+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Util.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D832D0782057824D004FE839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D832D08C2057824D004FE839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D832D0972057824E004FE839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D832D0722057824D004FE839 = {
+			isa = PBXGroup;
+			children = (
+				D832D07D2057824D004FE839 /* UILabel字间距行间距首行缩进 */,
+				D832D0922057824D004FE839 /* UILabel字间距行间距首行缩进Tests */,
+				D832D09D2057824E004FE839 /* UILabel字间距行间距首行缩进UITests */,
+				D832D07C2057824D004FE839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D832D07C2057824D004FE839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D832D07B2057824D004FE839 /* UILabel字间距行间距首行缩进.app */,
+				D832D08F2057824D004FE839 /* UILabel字间距行间距首行缩进Tests.xctest */,
+				D832D09A2057824E004FE839 /* UILabel字间距行间距首行缩进UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D832D07D2057824D004FE839 /* UILabel字间距行间距首行缩进 */ = {
+			isa = PBXGroup;
+			children = (
+				D832D0AC2057826F004FE839 /* Extension */,
+				D832D07E2057824D004FE839 /* AppDelegate.swift */,
+				D832D0802057824D004FE839 /* ViewController.swift */,
+				D832D0822057824D004FE839 /* Main.storyboard */,
+				D832D0852057824D004FE839 /* Assets.xcassets */,
+				D832D0872057824D004FE839 /* LaunchScreen.storyboard */,
+				D832D08A2057824D004FE839 /* Info.plist */,
+			);
+			path = "UILabel字间距行间距首行缩进";
+			sourceTree = "<group>";
+		};
+		D832D0922057824D004FE839 /* UILabel字间距行间距首行缩进Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D832D0932057824D004FE839 /* UILabel__________Tests.swift */,
+				D832D0952057824E004FE839 /* Info.plist */,
+			);
+			path = "UILabel字间距行间距首行缩进Tests";
+			sourceTree = "<group>";
+		};
+		D832D09D2057824E004FE839 /* UILabel字间距行间距首行缩进UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D832D09E2057824E004FE839 /* UILabel__________UITests.swift */,
+				D832D0A02057824E004FE839 /* Info.plist */,
+			);
+			path = "UILabel字间距行间距首行缩进UITests";
+			sourceTree = "<group>";
+		};
+		D832D0AC2057826F004FE839 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D832D0AD2057826F004FE839 /* UILabel+Util.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D832D07A2057824D004FE839 /* UILabel字间距行间距首行缩进 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D832D0A32057824E004FE839 /* Build configuration list for PBXNativeTarget "UILabel字间距行间距首行缩进" */;
+			buildPhases = (
+				D832D0772057824D004FE839 /* Sources */,
+				D832D0782057824D004FE839 /* Frameworks */,
+				D832D0792057824D004FE839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UILabel字间距行间距首行缩进";
+			productName = "UILabel字间距行间距首行缩进";
+			productReference = D832D07B2057824D004FE839 /* UILabel字间距行间距首行缩进.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D832D08E2057824D004FE839 /* UILabel字间距行间距首行缩进Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D832D0A62057824E004FE839 /* Build configuration list for PBXNativeTarget "UILabel字间距行间距首行缩进Tests" */;
+			buildPhases = (
+				D832D08B2057824D004FE839 /* Sources */,
+				D832D08C2057824D004FE839 /* Frameworks */,
+				D832D08D2057824D004FE839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D832D0912057824D004FE839 /* PBXTargetDependency */,
+			);
+			name = "UILabel字间距行间距首行缩进Tests";
+			productName = "UILabel字间距行间距首行缩进Tests";
+			productReference = D832D08F2057824D004FE839 /* UILabel字间距行间距首行缩进Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D832D0992057824E004FE839 /* UILabel字间距行间距首行缩进UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D832D0A92057824E004FE839 /* Build configuration list for PBXNativeTarget "UILabel字间距行间距首行缩进UITests" */;
+			buildPhases = (
+				D832D0962057824E004FE839 /* Sources */,
+				D832D0972057824E004FE839 /* Frameworks */,
+				D832D0982057824E004FE839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D832D09C2057824E004FE839 /* PBXTargetDependency */,
+			);
+			name = "UILabel字间距行间距首行缩进UITests";
+			productName = "UILabel字间距行间距首行缩进UITests";
+			productReference = D832D09A2057824E004FE839 /* UILabel字间距行间距首行缩进UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D832D0732057824D004FE839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hongyear Information Technology (Shanghai) Co.,Ltd.";
+				TargetAttributes = {
+					D832D07A2057824D004FE839 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D832D08E2057824D004FE839 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D832D07A2057824D004FE839;
+					};
+					D832D0992057824E004FE839 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D832D07A2057824D004FE839;
+					};
+				};
+			};
+			buildConfigurationList = D832D0762057824D004FE839 /* Build configuration list for PBXProject "UILabel字间距行间距首行缩进" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D832D0722057824D004FE839;
+			productRefGroup = D832D07C2057824D004FE839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D832D07A2057824D004FE839 /* UILabel字间距行间距首行缩进 */,
+				D832D08E2057824D004FE839 /* UILabel字间距行间距首行缩进Tests */,
+				D832D0992057824E004FE839 /* UILabel字间距行间距首行缩进UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D832D0792057824D004FE839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D832D0892057824D004FE839 /* LaunchScreen.storyboard in Resources */,
+				D832D0862057824D004FE839 /* Assets.xcassets in Resources */,
+				D832D0842057824D004FE839 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D832D08D2057824D004FE839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D832D0982057824E004FE839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D832D0772057824D004FE839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D832D0812057824D004FE839 /* ViewController.swift in Sources */,
+				D832D0AE2057826F004FE839 /* UILabel+Util.swift in Sources */,
+				D832D07F2057824D004FE839 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D832D08B2057824D004FE839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D832D0942057824D004FE839 /* UILabel__________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D832D0962057824E004FE839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D832D09F2057824E004FE839 /* UILabel__________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D832D0912057824D004FE839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D832D07A2057824D004FE839 /* UILabel字间距行间距首行缩进 */;
+			targetProxy = D832D0902057824D004FE839 /* PBXContainerItemProxy */;
+		};
+		D832D09C2057824E004FE839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D832D07A2057824D004FE839 /* UILabel字间距行间距首行缩进 */;
+			targetProxy = D832D09B2057824E004FE839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D832D0822057824D004FE839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D832D0832057824D004FE839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D832D0872057824D004FE839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D832D0882057824D004FE839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D832D0A12057824E004FE839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D832D0A22057824E004FE839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D832D0A42057824E004FE839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = "UILabel字间距行间距首行缩进/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.label;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D832D0A52057824E004FE839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = "UILabel字间距行间距首行缩进/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.label;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D832D0A72057824E004FE839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel字间距行间距首行缩进Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.UILabel----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel字间距行间距首行缩进.app/UILabel字间距行间距首行缩进";
+			};
+			name = Debug;
+		};
+		D832D0A82057824E004FE839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel字间距行间距首行缩进Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.UILabel----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel字间距行间距首行缩进.app/UILabel字间距行间距首行缩进";
+			};
+			name = Release;
+		};
+		D832D0AA2057824E004FE839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel字间距行间距首行缩进UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.UILabel----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UILabel字间距行间距首行缩进";
+			};
+			name = Debug;
+		};
+		D832D0AB2057824E004FE839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UILabel字间距行间距首行缩进UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.UILabel----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UILabel字间距行间距首行缩进";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D832D0762057824D004FE839 /* Build configuration list for PBXProject "UILabel字间距行间距首行缩进" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D832D0A12057824E004FE839 /* Debug */,
+				D832D0A22057824E004FE839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D832D0A32057824E004FE839 /* Build configuration list for PBXNativeTarget "UILabel字间距行间距首行缩进" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D832D0A42057824E004FE839 /* Debug */,
+				D832D0A52057824E004FE839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D832D0A62057824E004FE839 /* Build configuration list for PBXNativeTarget "UILabel字间距行间距首行缩进Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D832D0A72057824E004FE839 /* Debug */,
+				D832D0A82057824E004FE839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D832D0A92057824E004FE839 /* Build configuration list for PBXNativeTarget "UILabel字间距行间距首行缩进UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D832D0AA2057824E004FE839 /* Debug */,
+				D832D0AB2057824E004FE839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D832D0732057824D004FE839 /* Project object */;
+}
